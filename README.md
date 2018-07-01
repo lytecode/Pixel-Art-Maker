@@ -1,16 +1,10 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+## Instructions on how to Use
+1. Clone the repository or download the zip file
+2. Open the index.html file in your browser
+3. Make a grid using the input fields
+4. hence color each cell by selecting any color from the color picker.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+_Enjoy_
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
