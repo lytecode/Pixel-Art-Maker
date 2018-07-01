@@ -1,8 +1,7 @@
 // Select color input
 // Select size input
-let inputHeight;
-let inputWidth;
-let color;
+let inputHeight, inputWidth, color;
+
 // When size is submitted by the user, call makeGrid()
 $('#sizePicker').on('submit', function(evt){
    
@@ -11,6 +10,7 @@ $('#sizePicker').on('submit', function(evt){
     console.log('inputHeight: ', inputHeight);
     console.log('inputWeight: ', inputWidth);
     
+    $('#pixelCanvas > tr').remove();
     makeGrid();
     evt.preventDefault();
 });
@@ -18,7 +18,13 @@ $('#sizePicker').on('submit', function(evt){
 function makeGrid() {
 
 // Your code goes here!
+    for(let row = 1; row <= inputWidth; row++){
+        $('#pixelCanvas').append('<tr></tr>');
+        for(let col = 1; col <= inputHeight; col++){
+            $('tr:last').append('<td></td>');
+        }
 
-console.log('inputHeight 2: ', inputHeight);
+    }
+
 
 }
